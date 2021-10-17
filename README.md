@@ -21,15 +21,6 @@
     cin >> c ;
   } while ( continue == 'y' || continue == 'Y' );
   ```
-+ Python
-  ```python
-  while True:
-  	'''
-  	Statments
-  	'''
-  	if 'y' not in input("Do you want to continue (y/n) : ") :
-  		break
-  ```
 + Java
   ```java
   do {
@@ -38,4 +29,14 @@
     */
     System.out.println("Do you want to continue (y/n) :");
   } while( new Scanner(System.in).next().contains("y"));
+  ```
+
++ Python
+  ```python
+  while True:
+  	'''
+  	Statments
+  	'''
+  	if 'y' not in input("Do you want to continue (y/n) : ") :
+  		break
   ```
