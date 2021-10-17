@@ -27,6 +27,6 @@
   	'''
   	Statments
   	'''
-  	if 'y' not in input("Do you want to continue : ") :
+  	if 'y' not in input("Do you want to continue (y/n) : ") :
   		break
   ```
