@@ -10,7 +10,7 @@
     scanf("%s", &c);
   } while ( continue == 'y' || continue == 'Y' );
   ```
-  + C++
++ C++
   ```cpp
   char continue;
   do {
