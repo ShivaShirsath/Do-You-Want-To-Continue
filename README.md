@@ -21,3 +21,12 @@
     cin >> c ;
   } while ( continue == 'y' || continue == 'Y' );
   ```
++ Python
+  ```python
+  while True:
+	  '''
+    Statments
+    '''
+	  if 'y' not in input("Do you want to continue : ") :
+      break
+  ```
