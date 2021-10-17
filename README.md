@@ -28,12 +28,12 @@
     Statments
     */
     System.out.println("Do you want to continue (y/n) :");
-  } while( new Scanner(System.in).next().contains("y"));
+  } while( new Scanner(System.in).next().contains("y") );
   ```
 
 + Python
   ```python
-  while True:
+  while True :
   	'''
   	Statments
   	'''
