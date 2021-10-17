@@ -24,9 +24,9 @@
 + Python
   ```python
   while True:
-	  '''
-    Statments
-    '''
-	  if 'y' not in input("Do you want to continue : ") :
-      break
+  	'''
+  	Statments
+  	'''
+  	if 'y' not in input("Do you want to continue : ") :
+  		break
   ```
