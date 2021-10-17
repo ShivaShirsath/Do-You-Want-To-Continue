@@ -1,25 +1,25 @@
 # Do You Want To Continue
 + C
   ```c
-  char continue;
+  char c;
   do {
     /*
      Statements
      */
     printf("\nDo you want to continue (y/n) ? ");
     scanf("%s", &c);
-  } while ( continue == 'y' || continue == 'Y' );
+  } while ( c == 'y' || c == 'Y' );
   ```
 + C++
   ```cpp
-  char continue;
+  char c;
   do {
     /*
      Statements
      */
     cout << "\nDo you want to continue (y/n) ? " ;
     cin >> c ;
-  } while ( continue == 'y' || continue == 'Y' );
+  } while ( c == 'y' || c == 'Y' );
   ```
 + Java
   ```java
